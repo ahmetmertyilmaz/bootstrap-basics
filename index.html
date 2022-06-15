@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="bootstrap basics">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <!--for real application, download that-->
+    <link rel="stylesheet" href="../bootstrap-basics/styles/style.css">
+    <title>Bootstrap Basics</title>
+</head>
+
+<body>
+    <div class="container-fluid">
+        <h1 class="display-1 text-center text-success bg-dark">Bootstrap Playground</h1>
+        <h2 class="display-4">Buttons <span class="badge bg-info">New</span></h2>
+        <button type="button" class="btn btn-primary">Primary</button>
+        <button type="button" class="btn btn-secondary disabled">Secondary</button>
+        <button type="button" class="btn btn-info btn-sm">Info</button>
+        <button type="button" class="btn btn-outline-danger btn-lg">Danger</button>
+        <button type="button" class="btn btn-primary rounded-pill">Updates <span
+                class="badge text-bg-danger">2</span></button>
+        <div class="btn-group btn-group-lg" role="group" aria-label="basic example">
+            <button type="button" class="btn btn-warning btn-outline-primary">One</button>
+            <button type="button" class="btn btn-warning btn-outline-primary">Two</button>
+            <button type="button" class="btn btn-warning btn-outline-primary">Three</button>
+        </div>
+        <!--dismissable alert-->
+        <div class="alert alert-danger alert-dismissible fade show" role="alert">
+            <h3 class="alert-heading">Oh no!</h3>
+            Danger! You are about to end the world as we know it!
+            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+        </div>
+        <h2 class="display-4">Typography</h2>
+        <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero deserunt at, recusandae cumque
+            laudantium qui
+            quis
+            quisquam, ratione cupiditate corrupti aliquam aut laboriosam nemo maxime ad. Officia corporis sint quos?</p>
+        <figure>
+            <blockquote class="blockquote text-end bg-light">
+                <p class="mb-10">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reiciendis, veritatis
+                    adipisci
+                    qui
+                    blanditiis cupiditate numquam minima nesciunt cum quia hic modi veniam impedit minus voluptate? Quas
+                    maxime porro tempora a.</p>
+                <figcaption class="blockquote-footer">Mr. Lorem Ipsum</figcaption>
+            </blockquote>
+        </figure>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
+
+<!--
+    container , Containers are the most basic layout element in Bootstrap and are required when using our default grid system. Containers are used to contain, pad, and (sometimes) center the content within them. 
+
+
+-->
